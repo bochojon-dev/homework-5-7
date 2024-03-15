@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1240px;
+}
+input,
+textarea {
+  outline: none;
+  background: #eee;
+  opacity: 0.6;
+  border: 0;
+  padding: 10px;
+  padding-left: 15px;
+  resize: none;
+}
+body {
+  background: linear-gradient(to right, yellow, #4c8ff9);
+}
+.inputs {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.forms {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: #fff;
+  padding: 40px 80px;
+}
+label {
+  font-size: 12px;
+}
+button {
+  background: none;
+  border: none;
+  padding: 12px 30px;
+  background: linear-gradient(to right, #4c8ff9, yellow);
+}
+.e-names {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.name,
+.email,
+.website,
+.message {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 10px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+}
+.card {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background: #fff;
+  border-radius: 25px;
+}
+.img {
+  padding-bottom: 8px;
+  width: 80px;
+  height: 80px;
+  background: #ccc;
+  border-radius: 50%;
+}
+.btn-delete {
+  background: #000;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 20px;
+  padding: 8px 50px;
+}
