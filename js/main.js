@@ -8,7 +8,7 @@ const cards = document.querySelector(".cards");
 const DATA = [
   {
     name: "Maqsadjon",
-    email: "manqsadjon@gmail.com",
+    email: "maniyevmaqsadjon@gmail.com",
     website: "website",
     message: "message",
   },
@@ -29,6 +29,7 @@ form.addEventListener("submit", (event) => {
   inputName.value = "";
   inputEmail.value = "";
   inputWebsite.value = "";
+  inputMessage.value = "";
 });
 
 function createUser(data) {
@@ -61,7 +62,7 @@ function deleteUser(index) {
   DATA.splice(index, 1);
   createUser(DATA);
 }
-
+// soat.uz
 const soat = document.querySelector(".soat");
 const minut = document.querySelector(".minut");
 const second = document.querySelector(".second");
