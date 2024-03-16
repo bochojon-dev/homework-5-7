@@ -8,7 +8,7 @@ const cards = document.querySelector(".cards");
 const DATA = [
   {
     name: "Maqsadjon",
-    email: "mmanqsadjon@gmail.com",
+    email: "manqsadjon@gmail.com",
     website: "website",
     message: "message",
   },
