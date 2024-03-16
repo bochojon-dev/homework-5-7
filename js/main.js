@@ -21,6 +21,7 @@ form.addEventListener("submit", (event) => {
     name: inputName.value,
     email: inputEmail.value,
     website: inputWebsite.value,
+    message: inputMessage.value,
   };
   console.log(newUser);
   DATA.push(newUser);
