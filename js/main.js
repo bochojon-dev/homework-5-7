@@ -1,9 +1,10 @@
 const form = document.querySelector(".form");
-const inputName = document.querySelector(".name");
-const inputEmail = document.querySelector(".email");
-const inputWebsite = document.querySelector(".website");
-const inputMessage = document.querySelector(".message");
+const inputName = document.querySelector("#name");
+const inputEmail = document.querySelector("#email");
+const inputWebsite = document.querySelector("#website");
+const inputMessage = document.querySelector("#message");
 const cards = document.querySelector(".cards");
+
 const DATA = [
   {
     name: "Maqsadjon",
@@ -21,6 +22,7 @@ form.addEventListener("submit", (event) => {
     email: inputEmail.value,
     website: inputWebsite.value,
   };
+  console.log(newUser);
   DATA.push(newUser);
   createUser(DATA);
   inputName.value = "";
